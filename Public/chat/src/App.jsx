@@ -4,7 +4,7 @@ import { BrowserRouter,Routes,Route} from 'react-router-dom';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Chat from './Pages/Chat';
-import SetAvatar from './Pages/SetAvatar';
+
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
    <Routes>
     <Route path="/register" element ={<Register />}/>
     <Route path="/login" element ={<Login />}/>
-    <Route path="/setAvatar" element ={<SetAvatar />}/>
+    
     <Route path="/Chat" element ={<Chat />}/>
     </Routes>
   </BrowserRouter>
